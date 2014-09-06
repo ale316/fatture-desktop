@@ -1,0 +1,1 @@
+FattureDesktop.ApplicationAdapter = DS.FixtureAdapter
