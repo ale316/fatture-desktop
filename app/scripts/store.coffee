@@ -1,1 +1,2 @@
-FattureDesktop.ApplicationAdapter = DS.FixtureAdapter
+Fatture.ApplicationAdapter = EmberPouch.Adapter.extend
+  db: new PouchDB('fatture')

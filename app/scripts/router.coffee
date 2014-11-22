@@ -1,2 +1,2 @@
-FattureDesktop.Router.map ->
+Fatture.Router.map ->
   # Add your routes here
