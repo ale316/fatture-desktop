@@ -1,0 +1,75 @@
+{{main-header title="New Invoice"}}
+
+<div class="row">
+  <div class="container">
+    <div class="col s12">
+      <form {{action "saveInvoice" on="submit"}}>
+        <div class="row">
+          <div class="col s6 company-select">
+            <div class="row">
+              <h5>Company</h5>
+            </div>
+            <div class="row">
+                {{md-select content=companies value=model.company prompt="Select Company.." optionLabelPath="content.name" optionValuePath="content" class="no-label"}}
+            </div>
+            <div class="row">
+                <label class="active">Address</label>
+                {{md-input value=model.company.address readonly=true class="no-label"}}
+            </div>
+            <div class="row">
+                <label class="active">SSN</label>
+                {{md-input value=model.company.ssn readonly=true class="no-label"}}
+            </div>
+            <div class="row">
+                <label class="active">VAT</label>
+                {{md-input value=model.company.vat readonly=true class="no-label"}}
+            </div>
+          </div>
+          <div class="col s6">
+            <p>test</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12">
+            <h5>Expenses</h5>
+            <table class="striped expenses">
+              <thead>
+                <tr>
+                    <th data-field="description">Description</th>
+                    <th data-field="returns">Refund</th>
+                    <th data-field="total">Total Price</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                {{#each model.expenses as |expense|}}
+                  <tr>
+                    <td>{{md-textarea value=expense.description class="no-label"}}</td>
+                    <td>{{md-input value=expense.refund class="no-label"}}</td>
+                    <td>{{md-input value=expense.total class="no-label"}}</td>
+                  </tr>
+                {{/each}}
+                <tr class="summary">
+                  <td>{{md-btn action='addExpense' text='Add Expense' class="left"}}</td>
+                  <td><p>{{controller.refundAmount}}</p></td>
+                  <td><p>{{controller.totalAmount}}</p></td>
+                </tr>
+                <tr class="summary">
+                  <td></td>
+                  <td></td>
+                  <td><p>{{model.amount}}</p></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            {{md-btn-submit text='Save' class="right"}}
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

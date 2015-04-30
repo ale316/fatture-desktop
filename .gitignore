@@ -1,9 +1,2 @@
-node_modules
-temp
-dist
-.sass-cache
-.tmp
-app/bower_components
-test/bower_components
-
-/nw
+frontend/node_modules
+backend/node_modules

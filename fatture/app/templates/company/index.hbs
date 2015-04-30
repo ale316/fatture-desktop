@@ -1,0 +1,30 @@
+{{main-header title=model.name}}
+
+<div class="row">
+  <div class="container">
+    <div class="col s12">
+      <h5>Latest Invoices</h5>
+      <table class="striped invoices scroll">
+        <thead>
+          <tr>
+              <th data-field="created">Created</th>
+              <th data-field="paid">Paid</th>
+              <th data-field="amount">Amount</th>
+              <th data-field="status">Status</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {{#each model.invoices as |invoice|}}
+            <tr>
+              <td><p>{{formatted-date invoice.noticeCreatedAt}}</p></td>
+              <td><p>{{formatted-date invoice.paidAt}}</p></td>
+              <td><p>{{invoice.amount}}</p></td>
+              <td><span class="status">{{if invoice.paid 'Paid' 'Not Paid'}}</span></td>
+            </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<!-- Navbar here -->
+<div class="main-nav side-nav fixed center-align blue-grey darken-2 z-depth-1">
+  <a href="#" class="logo blue-grey darken-3">Fi</a>
+  <ul class='menu'>
+    <li>{{#link-to 'companies.new'}}<i class="mdi-action-subject"></i>{{/link-to}}</li>
+    <li>{{#link-to 'companies.new'}}<i class="mdi-editor-attach-money"></i>{{/link-to}}</li>
+    <li>{{#link-to 'companies.new'}}<i class="mdi-action-trending-up"></i>{{/link-to}}</li>
+  </ul>
+</div>
+
+<div class="col sidebar z-depth-1"> <!-- Note that "m8 l9" was added -->
+  <!-- This content will be:
+    9-columns-wide on large screens,
+    8-columns-wide on medium screens,
+    12-columns-wide on small screens  -->
+  {{outlet "sidebar"}}
+</div>
+
+<!-- Page Layout here -->
+<main>
+  {{outlet}}
+</main>
+
+
+{{!-- ember-cli-materialize modal container --}}
+{{md-modal-container}}

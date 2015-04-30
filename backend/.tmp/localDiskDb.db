@@ -1,0 +1,557 @@
+{
+  "data": {
+    "company": [
+      {
+        "name": "Serious Fox",
+        "identifier": null,
+        "owner": "sdefdfsd",
+        "ssn": "as5411",
+        "vat": "jbkjln54544",
+        "address": "6-8 Standard Place",
+        "postalCode": "EC2A 3BE",
+        "city": "London",
+        "region": "London",
+        "createdAt": "2015-04-28T22:45:28.766Z",
+        "updatedAt": "2015-04-28T22:45:40.009Z",
+        "id": 14
+      },
+      {
+        "name": "Yoyo",
+        "identifier": "",
+        "owner": "yuivuhkb",
+        "ssn": "54112445",
+        "vat": "1524524142354",
+        "address": "bjil bjkl bjkl bnjkl",
+        "postalCode": "N2L3H7",
+        "city": "Waterloo",
+        "region": "ON",
+        "createdAt": "2015-04-29T18:16:23.137Z",
+        "updatedAt": "2015-04-29T18:16:56.188Z",
+        "id": 15
+      }
+    ],
+    "expense": [
+      {
+        "total": 100,
+        "refund": 10,
+        "description": "dsdsdssd",
+        "invoice": null,
+        "createdAt": "2015-04-28T22:46:01.637Z",
+        "updatedAt": "2015-04-28T22:46:01.637Z",
+        "id": 13
+      },
+      {
+        "total": 100,
+        "refund": 100,
+        "description": "sdasddsds",
+        "invoice": null,
+        "createdAt": "2015-04-28T22:49:50.675Z",
+        "updatedAt": "2015-04-28T22:49:50.675Z",
+        "id": 14
+      },
+      {
+        "total": 11,
+        "refund": 12,
+        "description": "fdfdsfdfd",
+        "invoice": null,
+        "createdAt": "2015-04-28T22:52:46.891Z",
+        "updatedAt": "2015-04-28T22:52:46.891Z",
+        "id": 15
+      },
+      {
+        "total": 22,
+        "refund": 12,
+        "description": "refsdfsdfdsdf",
+        "invoice": null,
+        "createdAt": "2015-04-28T22:54:08.570Z",
+        "updatedAt": "2015-04-28T22:54:08.570Z",
+        "id": 16
+      },
+      {
+        "total": 222,
+        "refund": 12,
+        "description": "assdaasd",
+        "invoice": null,
+        "createdAt": "2015-04-28T23:03:07.974Z",
+        "updatedAt": "2015-04-28T23:03:07.974Z",
+        "id": 17
+      },
+      {
+        "total": 100,
+        "refund": 10,
+        "description": "fsdfdfdfds",
+        "invoice": null,
+        "createdAt": "2015-04-28T23:04:19.633Z",
+        "updatedAt": "2015-04-28T23:04:19.633Z",
+        "id": 18
+      },
+      {
+        "total": 100,
+        "refund": 10,
+        "description": "efsdrfdfdfd",
+        "invoice": null,
+        "createdAt": "2015-04-28T23:04:49.944Z",
+        "updatedAt": "2015-04-28T23:04:49.944Z",
+        "id": 19
+      },
+      {
+        "total": 2222,
+        "refund": 12,
+        "description": "gvhfnghnghf",
+        "invoice": null,
+        "createdAt": "2015-04-28T23:09:33.935Z",
+        "updatedAt": "2015-04-28T23:09:33.935Z",
+        "id": 20
+      },
+      {
+        "total": 222,
+        "refund": 12,
+        "description": "rtdrtffrtdfdfd",
+        "invoice": 35,
+        "createdAt": "2015-04-28T23:10:27.414Z",
+        "updatedAt": "2015-04-28T23:11:08.870Z",
+        "id": 21
+      },
+      {
+        "total": 222222,
+        "refund": 12,
+        "description": "fdfgvfvfxvdc",
+        "invoice": 35,
+        "createdAt": "2015-04-28T23:11:08.876Z",
+        "updatedAt": "2015-04-28T23:11:08.876Z",
+        "id": 22
+      },
+      {
+        "total": 2222,
+        "refund": 12,
+        "description": "dfsfdsdfsfd",
+        "invoice": 36,
+        "createdAt": "2015-04-28T23:12:33.235Z",
+        "updatedAt": "2015-04-28T23:12:33.235Z",
+        "id": 23
+      },
+      {
+        "total": 1222,
+        "refund": 12,
+        "description": "sddssdffsd",
+        "invoice": 37,
+        "createdAt": "2015-04-28T23:15:51.921Z",
+        "updatedAt": "2015-04-28T23:15:51.921Z",
+        "id": 24
+      },
+      {
+        "total": 22,
+        "refund": 122,
+        "description": "saddsasddfs",
+        "invoice": 38,
+        "createdAt": "2015-04-28T23:16:25.901Z",
+        "updatedAt": "2015-04-28T23:16:25.901Z",
+        "id": 25
+      },
+      {
+        "total": 222,
+        "refund": 122,
+        "description": "sdfdsfsdfsd",
+        "invoice": 39,
+        "createdAt": "2015-04-28T23:28:17.111Z",
+        "updatedAt": "2015-04-28T23:28:17.111Z",
+        "id": 26
+      },
+      {
+        "total": 100,
+        "refund": 20,
+        "description": "sdi uyhfuihdvssduifh",
+        "invoice": 40,
+        "createdAt": "2015-04-29T18:17:26.499Z",
+        "updatedAt": "2015-04-29T18:17:26.499Z",
+        "id": 27
+      },
+      {
+        "total": 1222,
+        "refund": 100,
+        "description": "dssddsfsdfsd",
+        "invoice": 44,
+        "createdAt": "2015-04-30T01:42:17.275Z",
+        "updatedAt": "2015-04-30T01:42:17.275Z",
+        "id": 28
+      },
+      {
+        "total": 422,
+        "refund": 51,
+        "description": "fsdfdfsd",
+        "invoice": 44,
+        "createdAt": "2015-04-30T01:42:17.279Z",
+        "updatedAt": "2015-04-30T01:42:17.279Z",
+        "id": 29
+      },
+      {
+        "total": 222,
+        "refund": 12,
+        "description": "xzxzzxxzxz",
+        "invoice": 45,
+        "createdAt": "2015-04-30T01:55:14.802Z",
+        "updatedAt": "2015-04-30T01:55:14.802Z",
+        "id": 30
+      },
+      {
+        "total": 100,
+        "refund": 12,
+        "description": "cxzfdcxcxxccx",
+        "invoice": 46,
+        "createdAt": "2015-04-30T01:55:30.627Z",
+        "updatedAt": "2015-04-30T01:55:30.627Z",
+        "id": 31
+      }
+    ],
+    "invoice": [
+      {
+        "amount": null,
+        "paidAt": null,
+        "paid": false,
+        "noticeCreatedAt": "2015-04-28T22:45:51.966Z",
+        "company": 14,
+        "createdAt": "2015-04-28T22:46:01.645Z",
+        "updatedAt": "2015-04-28T22:46:01.645Z",
+        "id": 23
+      },
+      {
+        "amount": null,
+        "paidAt": null,
+        "paid": false,
+        "noticeCreatedAt": "2015-04-28T22:47:01.459Z",
+        "company": 14,
+        "createdAt": "2015-04-28T22:47:13.945Z",
+        "updatedAt": "2015-04-28T22:47:13.945Z",
+        "id": 24
+      },
+      {
+        "amount": null,
+        "paidAt": null,
+        "paid": false,
+        "noticeCreatedAt": "2015-04-28T22:49:19.786Z",
+        "company": 14,
+        "createdAt": "2015-04-28T22:49:31.579Z",
+        "updatedAt": "2015-04-28T22:49:31.579Z",
+        "id": 25
+      },
+      {
+        "amount": null,
+        "paidAt": null,
+        "paid": false,
+        "noticeCreatedAt": "2015-04-28T22:49:42.367Z",
+        "company": 14,
+        "createdAt": "2015-04-28T22:49:50.684Z",
+        "updatedAt": "2015-04-28T22:49:50.684Z",
+        "id": 26
+      },
+      {
+        "amount": null,
+        "paidAt": null,
+        "paid": false,
+        "noticeCreatedAt": "2015-04-28T22:52:37.409Z",
+        "company": 14,
+        "createdAt": "2015-04-28T22:52:46.883Z",
+        "updatedAt": "2015-04-28T22:52:46.883Z",
+        "id": 27
+      },
+      {
+        "amount": null,
+        "paidAt": null,
+        "paid": false,
+        "noticeCreatedAt": "2015-04-28T22:53:58.177Z",
+        "company": 14,
+        "createdAt": "2015-04-28T22:54:08.942Z",
+        "updatedAt": "2015-04-28T22:54:08.942Z",
+        "id": 28
+      },
+      {
+        "amount": null,
+        "paidAt": "2015-04-28T23:01:14.758Z",
+        "paid": false,
+        "noticeCreatedAt": "2015-04-28T23:01:06.549Z",
+        "company": 14,
+        "createdAt": "2015-04-28T23:01:14.734Z",
+        "updatedAt": "2015-04-28T23:01:20.739Z",
+        "id": 29
+      },
+      {
+        "amount": null,
+        "paidAt": null,
+        "paid": false,
+        "noticeCreatedAt": "2015-04-28T23:02:22.819Z",
+        "company": 14,
+        "createdAt": "2015-04-28T23:02:30.210Z",
+        "updatedAt": "2015-04-28T23:02:30.210Z",
+        "id": 30
+      },
+      {
+        "amount": null,
+        "paidAt": null,
+        "paid": false,
+        "noticeCreatedAt": "2015-04-28T23:02:57.524Z",
+        "company": 14,
+        "createdAt": "2015-04-28T23:03:08.066Z",
+        "updatedAt": "2015-04-28T23:03:08.066Z",
+        "id": 31
+      },
+      {
+        "amount": null,
+        "paidAt": null,
+        "paid": false,
+        "noticeCreatedAt": "2015-04-28T23:03:50.617Z",
+        "company": 14,
+        "createdAt": "2015-04-28T23:04:19.641Z",
+        "updatedAt": "2015-04-28T23:04:19.641Z",
+        "id": 32
+      },
+      {
+        "amount": null,
+        "paidAt": null,
+        "paid": false,
+        "noticeCreatedAt": "2015-04-28T23:04:39.140Z",
+        "company": 14,
+        "createdAt": "2015-04-28T23:04:49.940Z",
+        "updatedAt": "2015-04-28T23:04:49.940Z",
+        "id": 33
+      },
+      {
+        "amount": null,
+        "paidAt": null,
+        "paid": false,
+        "noticeCreatedAt": "2015-04-28T23:09:23.405Z",
+        "company": 14,
+        "createdAt": "2015-04-28T23:09:33.930Z",
+        "updatedAt": "2015-04-28T23:09:33.930Z",
+        "id": 34
+      },
+      {
+        "amount": null,
+        "paidAt": "2015-04-28T23:10:27.581Z",
+        "paid": false,
+        "noticeCreatedAt": "2015-04-28T23:10:17.560Z",
+        "company": 14,
+        "createdAt": "2015-04-28T23:10:27.568Z",
+        "updatedAt": "2015-04-28T23:11:09.234Z",
+        "id": 35
+      },
+      {
+        "amount": null,
+        "paidAt": null,
+        "paid": false,
+        "noticeCreatedAt": "2015-04-28T23:12:17.434Z",
+        "company": 14,
+        "createdAt": "2015-04-28T23:12:33.075Z",
+        "updatedAt": "2015-04-28T23:12:33.075Z",
+        "id": 36
+      },
+      {
+        "amount": null,
+        "paidAt": null,
+        "paid": false,
+        "noticeCreatedAt": "2015-04-28T23:15:44.365Z",
+        "company": 14,
+        "createdAt": "2015-04-28T23:15:51.773Z",
+        "updatedAt": "2015-04-28T23:15:51.773Z",
+        "id": 37
+      },
+      {
+        "amount": null,
+        "paidAt": "2015-04-28T23:16:25.766Z",
+        "paid": false,
+        "noticeCreatedAt": "2015-04-28T23:16:14.671Z",
+        "company": 14,
+        "createdAt": "2015-04-28T23:16:25.755Z",
+        "updatedAt": "2015-04-28T23:16:25.915Z",
+        "id": 38
+      },
+      {
+        "amount": null,
+        "paidAt": null,
+        "paid": false,
+        "noticeCreatedAt": "2015-04-28T23:28:09.573Z",
+        "company": 14,
+        "createdAt": "2015-04-28T23:28:16.948Z",
+        "updatedAt": "2015-04-28T23:28:16.948Z",
+        "id": 39
+      },
+      {
+        "amount": null,
+        "paidAt": null,
+        "paid": false,
+        "noticeCreatedAt": "2015-04-29T18:17:12.391Z",
+        "company": 15,
+        "createdAt": "2015-04-29T18:17:26.338Z",
+        "updatedAt": "2015-04-29T18:17:26.338Z",
+        "id": 40
+      },
+      {
+        "amount": 1320,
+        "paidAt": null,
+        "noticeCreatedAt": "2015-04-30T01:38:13.110Z",
+        "company": 14,
+        "paid": false,
+        "createdAt": "2015-04-30T01:38:41.921Z",
+        "updatedAt": "2015-04-30T01:38:41.921Z",
+        "id": 41
+      },
+      {
+        "amount": 110,
+        "paidAt": null,
+        "noticeCreatedAt": "2015-04-30T01:40:05.617Z",
+        "company": 14,
+        "paid": false,
+        "createdAt": "2015-04-30T01:40:15.726Z",
+        "updatedAt": "2015-04-30T01:40:15.726Z",
+        "id": 42
+      },
+      {
+        "amount": 120,
+        "paidAt": null,
+        "noticeCreatedAt": "2015-04-30T01:40:41.511Z",
+        "company": 14,
+        "paid": false,
+        "createdAt": "2015-04-30T01:40:51.108Z",
+        "updatedAt": "2015-04-30T01:41:02.161Z",
+        "id": 43
+      },
+      {
+        "amount": 1795,
+        "paidAt": null,
+        "noticeCreatedAt": "2015-04-30T01:41:57.501Z",
+        "company": 14,
+        "paid": false,
+        "createdAt": "2015-04-30T01:42:12.937Z",
+        "updatedAt": "2015-04-30T01:42:12.937Z",
+        "id": 44
+      },
+      {
+        "amount": 234,
+        "paidAt": null,
+        "noticeCreatedAt": "2015-04-30T01:41:57.501Z",
+        "company": 15,
+        "paid": false,
+        "createdAt": "2015-04-30T01:53:23.253Z",
+        "updatedAt": "2015-04-30T01:53:23.253Z",
+        "id": 45
+      },
+      {
+        "amount": 112,
+        "paidAt": null,
+        "noticeCreatedAt": "2015-04-30T01:55:16.595Z",
+        "company": 15,
+        "paid": false,
+        "createdAt": "2015-04-30T01:55:27.410Z",
+        "updatedAt": "2015-04-30T01:55:27.410Z",
+        "id": 46
+      }
+    ],
+    "user": []
+  },
+  "schema": {
+    "company": {
+      "name": {
+        "type": "string"
+      },
+      "address": {
+        "type": "string"
+      },
+      "identifier": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "expense": {
+      "description": {
+        "type": "string"
+      },
+      "total": {
+        "type": "float"
+      },
+      "refund": {
+        "type": "float"
+      },
+      "invoice": {
+        "type": "integer",
+        "model": "invoice",
+        "foreignKey": true,
+        "alias": "invoice"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "invoice": {
+      "amount": {
+        "type": "float"
+      },
+      "paid": {
+        "type": "boolean",
+        "defaultsTo": false
+      },
+      "company": {
+        "type": "integer",
+        "model": "company",
+        "foreignKey": true,
+        "alias": "company"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "invoice": {
+      "id": 46
+    },
+    "company": {
+      "id": 15
+    },
+    "user": {},
+    "expense": {
+      "id": 31
+    }
+  }
+}

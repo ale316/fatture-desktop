@@ -1,0 +1,8 @@
+<ul class="collection with-header">
+  <li class="collection-header">Companies {{#link-to "companies.new"}}<i class="mdi-content-add-box right"></i>{{/link-to}}</li>
+  {{#each arrangedContent as |company|}}
+    {{#if company.name}}
+      <li>{{#link-to 'company' company class="collection-item"}}{{company.name}}{{/link-to}}</li>
+    {{/if}}
+  {{/each}}
+</ul>
